@@ -1,0 +1,27 @@
+package projetdébut;
+
+import java.util.Scanner;
+
+public class Main {
+
+public static void main(String[] args) {
+
+
+Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("C'est quoi ton prénom");
+		String name = scanner.nextLine();
+		System.out.println("quel âge as-tu?");
+		int age = scanner.nextInt();
+		scanner.nextLine();
+		System.out.println("c'est quoi ta nourriture favoris ?");
+		String food = scanner.nextLine();
+		
+		
+		System.out.println("salut "+name);
+		System.out.println("tu as "+age+" ans");
+		System.out.println("tu aime "+food);
+
+	}
+
+}
